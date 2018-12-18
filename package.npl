@@ -1,0 +1,19 @@
+--[[
+Title: NPL protobuf module
+Author(s): Cellfy
+Date Created: Jul 26, 2018
+Date Updated: Jul 26, 2018
+Desc: 
+Usage:
+------------------------------------------------------------
+NPL.load("npl_packages/nplprotobuf/");
+------------------------------------------------------------
+]]
+
+{
+	-- do not add search path when loading the containing folder via NPL.load. default to true.
+	-- searchpath = false,
+	-- bootstrapper = "xxx.lua",
+	-- main script
+	main = "script/nplprotobuf/main.lua",
+}
